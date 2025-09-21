@@ -1,0 +1,24 @@
+//Program to calculate the user' pay
+
+#include <iostream>
+using namespace std;
+
+double hours, rate, pay;
+
+int main () {
+    //Get the number of hours worked
+    cout << " How many hours did you work? : ";
+    cin >> hours;
+
+    //Get the rate of hourly pay
+    cout << " How much did you get paid per hour? : ";
+    cin >> rate;
+
+    //Calculate the pay
+    pay = hours * rate;
+
+    //Display the pay
+    cout << " You have earned $ :" << pay << endl;
+
+    return 0;
+}
